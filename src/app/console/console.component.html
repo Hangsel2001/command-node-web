@@ -1,0 +1,16 @@
+<form>
+  <div class="form-group">
+    <label for="type">Typ</label>
+<select name="type" [(ngModel)]="model.type" >
+  <option value="destination">destination</option>
+  <option value="power">power</option>
+  <option value="clear">clear</option>
+  <option value="init">init</option>
+</select>
+</div>
+<div class="form-group">
+  <label for="data">Data</label>
+  <input type="text" [(ngModel)]="model.data" name="data" />
+</div>
+<button type="submit" class="btn btn-success" (click)="send()">Skicka</button>
+</form>
