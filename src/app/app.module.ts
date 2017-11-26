@@ -6,12 +6,14 @@ import { DestinationQueueComponent } from './destination-queue/destination-queue
 
 import { SocketService} from './socket.service';
 import { ConsoleComponent } from './console/console.component';
+import { BlockOverviewComponent } from './block-overview/block-overview.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DestinationQueueComponent,
-    ConsoleComponent
+    ConsoleComponent,
+    BlockOverviewComponent
   ],
   imports: [
     BrowserModule, FormsModule
